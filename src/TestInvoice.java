@@ -7,6 +7,7 @@ public class TestInvoice {
 		Locale.setDefault(Locale.US);
 		Invoice sup = new Invoice();
 
+
 		System.out.println("Enter item id: ");
 		sup.identification = sc.nextInt();
 		System.out.println("Item Description:");

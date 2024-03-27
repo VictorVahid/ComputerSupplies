@@ -12,7 +12,6 @@ public class Invoice {
 		this.bill = 0.0;
 	}
 
-
 	public double getInvoiceAmount() {
 		if (this.uniteprice <=0 && this.amount <=0){
 			throw new RuntimeException("Digite um número maior que 0");
