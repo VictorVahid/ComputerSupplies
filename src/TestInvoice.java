@@ -16,7 +16,8 @@ public class TestInvoice {
 		System.out.println("Price Item: ");
 		sup.uniteprice = sc.nextDouble();
 
-		System.out.println(sup.toString());
+		System.out.println(sup);
+		System.out.printf("\nInvoice: %.2f", sup.getInvoiceAmount());
 
 		sc.close();
 	}
